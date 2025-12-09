@@ -1,0 +1,11 @@
+[33mcommit 44e13d2f318eecabe3274f5258c4e747e7fedb3c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: fabriciosc19 <160769136+fabriciosc19@users.noreply.github.com>
+Date:   Tue Dec 9 13:55:19 2025 -0500
+
+    first commit
+
+[33mcommit 945cc827b6122c6383cdbb0d2702d7c05aaecdee[m
+Author: fabriciosc19 <160769136+fabriciosc19@users.noreply.github.com>
+Date:   Tue Dec 9 13:36:35 2025 -0500
+
+    feat: crear estructura base del proyecto Marea Coffee (HTML, CSS y JS)
