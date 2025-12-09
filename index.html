@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="apple-touch-icon" href="assets/img/favicon.png">
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Marea Coffee — Inicio</title>
+
+  <!-- Bootstrap CSS (CDN) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap icons (opcional) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Tu CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-nav">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="assets/img/logo1.png" alt="Marea Coffee" class="nav-logo" />
+        <span class="ms-2 brand-text">Marea Coffee</span>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto" id="navLinks"></ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO / BANNER -->
+  <header class="hero" role="banner" style="background-image: url('assets/img/header.jpeg');">
+    <div class="hero-content container text-center">
+      <h1 class="hero-title">Marea Coffee</h1>
+      <p class="hero-sub">Un rincón de madera, luces cálidas y café artesanal</p>
+      <a href="#menu" class="btn btn-coffee btn-lg mt-3">Ver nuestro menú</a>
+    </div>
+  </header>
+
+  <!-- NUESTROS PRODUCTOS -->
+  <main>
+    <section id="menu" class="py-5">
+      <div class="container">
+        <h2 class="section-title text-center mb-4">Nuestros Productos</h2>
+        <div class="row" id="productosList" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- NOTICIAS -->
+    <section id="noticias" class="py-5 bg-section">
+      <div class="container">
+        <h2 class="section-title text-center mb-4">Noticias & Novedades</h2>
+        <div class="row" id="noticiasList"></div>
+      </div>
+    </section>
+
+    <!-- CONSEJOS -->
+    <section id="consejos" class="py-5">
+      <div class="container">
+        <h2 class="section-title text-center mb-4">Consejos para tu café</h2>
+        <div class="row" id="tipsList"></div>
+      </div>
+    </section>
+
+    <!-- GALERÍA DEL LOCAL -->
+    <section id="local" class="py-5 bg-section">
+      <div class="container">
+        <h2 class="section-title text-center mb-4">Conoce nuestro local</h2>
+        <div class="local-gallery" id="localGallery">
+          <img src="assets/img/local1.jpeg" alt="Interior Marea Coffee 1" class="local-img">
+          <img src="assets/img/local2.jpeg" alt="Interior Marea Coffee 2" class="local-img">
+          <img src="assets/img/local3.jpeg" alt="Interior Marea Coffee 3" class="local-img">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div><strong>Marea Coffee</strong></div>
+      <div class="small muted">© <span id="year"></span> Marea Coffee</div>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script src="assets/js/auth.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
